@@ -14,4 +14,4 @@ Parameters for the LandTrendr algorithms can be adjusted in the left-hand panel,
 a polygon in the map will interactively display LandTrendr inputs and segmentation results for the selected pixel or area in a set of 
 charts in the right-hand panel. 
 
-Additional LandTrendr utilities are included in LandTrendr.js and a description of the original LandTrendr utilities can be found [here]([url](https://emapr.github.io/LT-GEE/)). A manual 
+Additional LandTrendr utilities are included in LandTrendr.js and a description of the original LandTrendr utilities can be found [here](https://emapr.github.io/LT-GEE/). A manual 
