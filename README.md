@@ -14,7 +14,7 @@ _Note: scipts in the Reader section cannot be modified. Access to modifiable scr
 
 Parameters for the LandTrendr algorithms can be adjusted in the left-hand panel, and clicking the map, inserting a shapefile or drawing a polygon in the map will interactively display LandTrendr inputs and segmentation results for the selected pixel or area in a set of charts in the right-hand panel. 
 
-Additional LandTrendr utilities are included in `LandTrendr.js` and a description of the original LandTrendr utilities can be found [here](https://emapr.github.io/LT-GEE/). An elaborate manual on how to use the ViWi App can be found [here](url to manual in repository).
+Additional LandTrendr utilities are included in `LandTrendr.js` and a description of the original LandTrendr utilities can be found [here](https://emapr.github.io/LT-GEE/). A download link to the step-by-step manual on how to use the application can be found here. elaborate manual on how to use the ViWi App can be found [here](url to manual in repository).
 
 ## Collaboration Wiertsema & Partners
 
