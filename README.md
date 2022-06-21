@@ -8,15 +8,13 @@ The scripts in this repository facilitate interactively running the LandTrendr (
 
 The tool packaged as a Google Earth Engine App can be found [here](url to Earth Engine App).
 
-***Important note: The Google Earth Engine scripts can only be viewed and modified by users with a Google-account.***
+Alternatively, if you want to access the tool's source code, you can add the repository to your Google Earth Engine scripts by clicking [here](https://code.earthengine.google.com/?accept_repo=users/mariekebuuts97/Test2), it will be dispalyer in the Reader section. The visualization tool is accessible by running `LandTrendAPP.js`. 
 
-Alternatively, if you want to access the tool's source code, you can add the repository to your Google Earth Engine scripts by clicking [here](https://code.earthengine.google.com/?accept_repo=users/mariekebuuts97/ACT), it will be dispalyer in the Reader section. The visualization tool is accessible by running `LandTrendAPP.js`. 
-
-_Note: scipts in the Reader section cannot be modified._
+_Note: scipts in the Reader section cannot be modified. Access to modifiable scripts will be given to the Google Earth Engine account of Wiertsema & Partners._
 
 Parameters for the LandTrendr algorithms can be adjusted in the left-hand panel, and clicking the map, inserting a shapefile or drawing a polygon in the map will interactively display LandTrendr inputs and segmentation results for the selected pixel or area in a set of charts in the right-hand panel. 
 
-Additional LandTrendr utilities are included in LandTrendr.js and a description of the original LandTrendr utilities can be found [here](https://emapr.github.io/LT-GEE/). An elaborate manual on how to use the ViWi App can be found [here](url to manual in repository).
+Additional LandTrendr utilities are included in `LandTrendr.js` and a description of the original LandTrendr utilities can be found [here](https://emapr.github.io/LT-GEE/). An elaborate manual on how to use the ViWi App can be found [here](url to manual in repository).
 
 ## Collaboration Wiertsema & Partners
 
