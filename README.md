@@ -6,7 +6,7 @@ This repository contains all reports, data, and scripts created by students from
 
 **This tool can be used to compute and visualize NDVI time series of a single Landsat pixel, an imported shapefile or drawn polygons.**
 
-The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate interactively running the LandTrendr (Landsat-based detection of Trends in Disturbance and Recovery) algorithms for clicked pixels, imported shapefiles or drawn polygons resulting in time series charts of NDVI. This repository folder includes three scripts (`Ia03_APP.js`, `Ia02_UI.js`, and `Ia01_Function.js`).
+The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate interactively running the LandTrendr (Landsat-based detection of Trends in Disturbance and Recovery) and the Theil Sen Regression algorithms for clicked pixels, imported shapefiles or drawn polygons resulting in time series charts of NDVI. This repository folder includes four scripts (`Ia03_APP.js`, `Ia02_UI.js`, `Ia01_Function.js` and `Ib01_APP.js`).
 
 **Getting started:**
 
@@ -16,8 +16,11 @@ Alternatively, if you want to access the tool's source code, you can add the rep
 _Note: scipts in the Reader section cannot be modified. Access to modifiable scripts will be given to the Google Earth Engine account of Wiertsema & Partners._
 
 ***Description of what Ia01_Function.js and Ia02_UI.js are about. Can just be a short description.***  
-The Ia01_Function.js file contains functions that are necessary to run the LandTrendr_APP file. 
-The Ia02_UI.js contains user interface settings that are applied to the LandTrendr_APP file.
+
+The Ia01_Function.js file contains functions that are necessary to run the Ia03_APP.js file. 
+The Ia02_UI.js file contains user interface settings that are applied to the Ia03_APP.js file.
+The Ia03_APP.js file runs the application for NDVI trend analysis.
+The Ib01_APP.js file runs the application for NDVI slope trend analysis.
 
 Additional LandTrendr utilities are included in `Ia01_Function.js` and a description of the original LandTrendr utilities can be found [here](https://emapr.github.io/LT-GEE/). 
 
