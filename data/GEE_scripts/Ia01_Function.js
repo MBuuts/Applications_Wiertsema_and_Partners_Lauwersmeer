@@ -1,4 +1,4 @@
-// File name: LandTrendr_Library.js
+// File name: Ia01_Function.js
 // Name app: ViWi (Vegetation Index Wiertsema & Partners)
 // Description: This script contains functions that are necessary to run the LandTrendr_APP file. 
 // Authors: Persa Koutsouradi (persa.koutsouradi@wur.nl)
@@ -1616,9 +1616,3 @@ exports.getChangeMap = function(lt, changeParams){
   // apply the filter mask
   return distImg.mask(mask);
 };
-
-
-
-
-
-
