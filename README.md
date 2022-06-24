@@ -15,7 +15,7 @@ The tool packaged as a Google Earth Engine App can be found [here](url to Earth 
 Alternatively, if you want to access the tool's source code, you can add the repository to your Google Earth Engine scripts by clicking [here](https://code.earthengine.google.com/?accept_repo=users/mariekebuuts97/Test2), it will be displayed in the Reader section. The visualization tool is accessible by running `Ia03_APP.js`.   
 _Note: scipts in the Reader section cannot be modified. Access to modifiable scripts will be given to the Google Earth Engine account of Wiertsema & Partners._
 
-***Description of what Ia01_Function.js and Ia02_UI.js are about. Can just be a short description.***  
+***Description of scripts. Can just be a short description.***  
 
 The Ia01_Function.js file contains functions that are necessary to run the Ia03_APP.js file. 
 The Ia02_UI.js file contains user interface settings that are applied to the Ia03_APP.js file.
