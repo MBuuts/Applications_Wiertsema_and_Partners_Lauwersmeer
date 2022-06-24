@@ -18,8 +18,9 @@
 // Sourcing the other 2 files.
 ui.root.clear();
 
-var ltgee = require('users/pkourtis95/ACT:I_PROJECT_SCRIPTS/Ia_LandTrendr/Ia01_Function.js');  
-var ltgeeUI = require('users/pkourtis95/ACT:I_PROJECT_SCRIPTS/Ia_LandTrendr/Ia02_UI.js');  
+var ltgee = require('users/geewiertsema/NDVI_Apps:I_PROJECT_SCRIPTS/Ia_LandTrendr/Ia01_Function.js');  
+var ltgeeUI = require('users/geewiertsema/NDVI_Apps:I_PROJECT_SCRIPTS/Ia_LandTrendr/Ia02_UI.js');  
+
 
 
 
