@@ -10,8 +10,6 @@ The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate 
 
 **Getting started:**
 
-***The application of Davey: [here](https://code.earthengine.google.com/7d8603473ab915baa475b892deab9147)***
-
 The tool packaged as a Google Earth Engine App can be found [here](url to Earth Engine App). A step-by-step manual (including download link) on how to use the application can be found [here](link to manual). 
 
 Alternatively, if you want to access the tool's source code, you can add the repository to your Google Earth Engine scripts by clicking [here](https://code.earthengine.google.com/?accept_repo=users/mariekebuuts97/Test2), it will be displayed in the Reader section. The visualization tool is accessible by running `LandTrendAPP.js`.   
@@ -21,10 +19,48 @@ _Note: scipts in the Reader section cannot be modified. Access to modifiable scr
 Additional LandTrendr utilities are included in `LandTrendr.js` and a description of the original LandTrendr utilities can be found [here](https://emapr.github.io/LT-GEE/). 
 
 
+In the `/Data/...` folder, besides the Google Earth Engine scripts you can also find a shapefile of the National Park Lauwersmeer in different formats.
+
 ## Reports
 
-Project deliverables can be found in the `/reports/...` folder of this repository. This folder includes four files (`manual.pdf`, `report.pdf`, `proposal.pdf`, and `dmp.pdf`). `Report.pdf` contains... 
+Project deliverables can be found in the `/Reports/...` folder of this repository. This folder includes four files (`manual.pdf`, `report.pdf`, `ProjectProposal_25052022.pdf`, and `dmp.pdf`). 
 
+**[`ProjectProposal_25052022.pdf`](https://github.com/MBuuts/DORA_ViWi_App/blob/main/Reports/ProjectProposal_25052022.pdf) contains:**
+- An introduction into the problem
+- A short description about the study area
+- A description of the problem analysis
+- A description of the objectives
+- A description of the project approach
+- A description of the quality frame and control
+- A description of the products and deliverables
+- A description of the project management
+
+**`Report.pdf` contains:**
+- Some background information about vegetation stress and how this can be observed by remote sensing and vegetation indices
+- An introduction into the final outputs
+- A short description of the study area
+- A description of the objectives
+- A description of the methods and materials
+- Results:
+  - Stress trends (NDVI) in the Natura-2000 area 
+  - A map with high stress locations in the agricultural area
+  - A figure showing the correlation between vegetation stress and elevation
+- A description about the reproducibility of the application and the scripts
+- A description of the limitations and recommendations
+- An appendix containing a step-by-step manual on how to do a correlation with elevation in QGIS
+
+**`Manual.pdf` contains:**
+- A short and quick manual on how to use the ViWi-app using only default settings
+- An elaborate manual on the different settings and parameters of the ViWi-app
+
+**`DataManagementPlan.pdf` contains:**
+- A short description of the project
+- A description of the data management roles of the team members
+- A description of the type of project data, software choices, and data size
+- A description of the structure of data and information
+- A description of documentation and metadata
+- A description of data sharing and ownership
+- A description of long term storage
 
 
 ## Authors and contact information
