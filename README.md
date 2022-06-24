@@ -10,6 +10,8 @@ The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate 
 
 **Getting started:**
 
+***The application of Davey: [here](https://code.earthengine.google.com/7d8603473ab915baa475b892deab9147)***
+
 The tool packaged as a Google Earth Engine App can be found [here](url to Earth Engine App). A step-by-step manual (including download link) on how to use the application can be found [here](link to manual). 
 
 Alternatively, if you want to access the tool's source code, you can add the repository to your Google Earth Engine scripts by clicking [here](https://code.earthengine.google.com/?accept_repo=users/mariekebuuts97/Test2), it will be displayed in the Reader section. The visualization tool is accessible by running `LandTrendAPP.js`.   
