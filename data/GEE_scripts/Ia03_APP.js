@@ -1,4 +1,4 @@
-// File name: LandTrendr_APP.js
+// File name: Ia03_APP.js
 // APP name: ViWi (Vegetation Index Wiertsema & Partners)
 // Description: This script runs the application for NDVI trend analysis.
 // Date: 28-06-2022
@@ -18,8 +18,8 @@
 // Sourcing the other 2 files.
 ui.root.clear();
 
-var ltgee = require('users/pkourtis95/ACT:FINAL_SCRIPTS/LandTrendr_Library.js');  
-var ltgeeUI = require('users/pkourtis95/ACT:FINAL_SCRIPTS/LandTrendr_UI.js');  
+var ltgee = require('users/pkourtis95/ACT:I_PROJECT_SCRIPTS/Ia_LandTrendr/Ia01_Function.js');  
+var ltgeeUI = require('users/pkourtis95/ACT:I_PROJECT_SCRIPTS/Ia_LandTrendr/Ia02_UI.js');  
 
 
 
