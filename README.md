@@ -6,7 +6,7 @@ This repository contains all reports, data, and scripts created by students from
 
 **This tool can be used to compute and visualize NDVI time series of a single Landsat pixel, an imported shapefile or drawn polygons.**
 
-The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate interactively running the LandTrendr (Landsat-based detection of Trends in Disturbance and Recovery) and the Theil Sen Regression algorithms for clicked pixels, imported shapefiles or drawn polygons resulting in time series charts of NDVI. This repository folder includes four scripts (`Ia03_APP.js`, `Ia02_UI.js`, `Ia01_Function.js` and `Ib01_APP.js`).
+The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate interactively running the LandTrendr (Landsat-based detection of Trends in Disturbance and Recovery) and the Theil Sen Regression algorithm for clicked pixels, imported shapefiles or drawn polygons resulting in time series charts of NDVI. This repository folder includes four scripts (`Ia03_APP.js`, `Ia02_UI.js`, `Ia01_Function.js` and `Ib01_APP.js`).
 
 **Getting started:**
 
