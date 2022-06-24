@@ -1,4 +1,4 @@
-// File name: TheilSenRegression_APP.js
+// File name: Ib01_APP.js
 // APP name: ViWi (Vegetation Index Wiertsema & Partners)
 // Description: This script runs the application for NDVI slope trend analysis.
 // Date: 28-06-2022
