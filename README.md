@@ -6,18 +6,20 @@ This repository contains all reports, data, and scripts created by students from
 
 **This tool can be used to compute and visualize NDVI time series of a single Landsat pixel, an imported shapefile or drawn polygons.**
 
-The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate interactively running the LandTrendr (Landsat-based detection of Trends in Disturbance and Recovery) algorithms for clicked pixels, imported shapefiles or drawn polygons resulting in time series charts of NDVI. This repository folder includes three scripts (`LandTrendr_APP.js`, `LandTrendr_UI.js`, and `LandTrendr_Library.js`).
+The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate interactively running the LandTrendr (Landsat-based detection of Trends in Disturbance and Recovery) algorithms for clicked pixels, imported shapefiles or drawn polygons resulting in time series charts of NDVI. This repository folder includes three scripts (`Ia03_APP.js`, `Ia02_UI.js`, and `Ia01_Function.js`).
 
 **Getting started:**
 
 The tool packaged as a Google Earth Engine App can be found [here](url to Earth Engine App). A step-by-step manual (including download link) on how to use the application can be found [here](link to manual). 
 
-Alternatively, if you want to access the tool's source code, you can add the repository to your Google Earth Engine scripts by clicking [here](https://code.earthengine.google.com/?accept_repo=users/mariekebuuts97/Test2), it will be displayed in the Reader section. The visualization tool is accessible by running `LandTrend_APP.js`.   
+Alternatively, if you want to access the tool's source code, you can add the repository to your Google Earth Engine scripts by clicking [here](https://code.earthengine.google.com/?accept_repo=users/mariekebuuts97/Test2), it will be displayed in the Reader section. The visualization tool is accessible by running `Ia03_APP.js`.   
 _Note: scipts in the Reader section cannot be modified. Access to modifiable scripts will be given to the Google Earth Engine account of Wiertsema & Partners._
 
-***Description of what LandTrendr_Library.js and LandTrendr_UI.js are about. Can just be a short description.***  
-Additional LandTrendr utilities are included in `LandTrendr_Library.js` and a description of the original LandTrendr utilities can be found [here](https://emapr.github.io/LT-GEE/). 
+***Description of what Ia01_Function.js and Ia02_UI.js are about. Can just be a short description.***  
+The Ia01_Function.js file contains functions that are necessary to run the LandTrendr_APP file. 
+The Ia02_UI.js contains user interface settings that are applied to the LandTrendr_APP file.
 
+Additional LandTrendr utilities are included in `Ia01_Function.js` and a description of the original LandTrendr utilities can be found [here](https://emapr.github.io/LT-GEE/). 
 
 In the `/Data/...` folder, besides the Google Earth Engine scripts you can also find a shapefile of the National Park Lauwersmeer in different formats.
 
@@ -82,6 +84,12 @@ You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
 
-## Citations
+## Citations (_sources_)
 
-_sources_
+Kennedy, R. E., Yang, Z., Gorelick, N., Braaten, J., Cavalcante, L., Cohen, W. B., & Healey, S. (2018). Implementation of the LandTrendr algorithm on google earth engine. Remote Sensing, 10(5), 691.
+
+
+
+
+
+
