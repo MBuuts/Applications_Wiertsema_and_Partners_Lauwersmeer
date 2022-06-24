@@ -15,8 +15,8 @@
 // Sourcing the other 2 files.
 ui.root.clear();
 
-var ltgee = require('users/pkourtis95/ACT:FINAL_SCRIPTS/LandTrendr_Library.js');  
-var ltgeeUI = require('users/pkourtis95/ACT:FINAL_SCRIPTS/LandTrendr_UI.js');  
+var ltgee = require('users/pkourtis95/ACT:FINAL_SCRIPTS/LandTrendr_Library.js'); // future user needs to update the path 
+var ltgeeUI = require('users/pkourtis95/ACT:FINAL_SCRIPTS/LandTrendr_UI.js'); // future user needs to update the path  
 
 
 
