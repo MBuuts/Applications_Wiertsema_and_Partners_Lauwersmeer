@@ -1,5 +1,5 @@
 var extent_NL = ee.FeatureCollection("FAO/GAUL/2015/level0")
-                  .filter(ee.Filter.eq('ADM0_NAME', 'Netherlands')); //filter for entry that equals the UN country name 'Lebanon'
+                  .filter(ee.Filter.eq('ADM0_NAME', 'Netherlands')); //filter for entry that equals the UN country name 'Netherlands'
 
 var Start_period = ee.Date('2020-01-01')
 var End_period = ee.Date(new Date().getTime())
