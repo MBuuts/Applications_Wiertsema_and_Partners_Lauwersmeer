@@ -11,6 +11,10 @@
 // License: Apache License 2.0
 // Sources used: https://emapr.github.io/LT-GEE/index.html
 
+// TODO: When you draw a polygon and plot NDVI trend in the RGB Change Options,
+// you should change the scale value in line 1018 and 1101 so that you can investigate polygon size of scale*scale.
+
+
 // ==================================================================================================
 // Sourcing the other 2 files.
 ui.root.clear();
