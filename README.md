@@ -6,7 +6,7 @@ This repository contains all reports, data, and scripts created by students from
 
 **This tool can be used to compute and visualize NDVI time series of a single Landsat pixel, an imported shapefile or drawn polygons.**
 
-The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate interactively running the LandTrendr (Landsat-based detection of Trends in Disturbance and Recovery) algorithms for clicked pixels, imported shapefiles or drawn polygons resulting in time series charts of NDVI. This repository folder includes three scripts (`LandTrendAPP.js`, `LandTrendr-UI.js`, and `LandTrendr.js`).
+The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate interactively running the LandTrendr (Landsat-based detection of Trends in Disturbance and Recovery) algorithms for clicked pixels, imported shapefiles or drawn polygons resulting in time series charts of NDVI. This repository folder includes three scripts (`LandTrendr_APP.js`, `LandTrendr_UI.js`, and `LandTrendr_Library.js`).
 
 **Getting started:**
 
