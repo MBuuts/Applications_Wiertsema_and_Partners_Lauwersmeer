@@ -1,4 +1,4 @@
-// File name: LandTrendr_UI.js
+// File name: Ia02_UI.js
 // Name app: ViWi (Vegetation Index Wiertsema & Partners)
 // Description: This script contains user interface settings that are applied to the LandTrendr_APP file.
 // Date: 28-06-2022
