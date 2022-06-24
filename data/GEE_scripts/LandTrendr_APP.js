@@ -12,15 +12,14 @@
 // Sources used: https://emapr.github.io/LT-GEE/index.html
 
 // TODO: When you draw a polygon and plot NDVI trend in the RGB Change Options,
-// you should change the scale value in line 1018 and 1101 so that you can investigate polygon size of scale*scale.
-
+// The polygon size should be approximately 13km * 13 km. Alternatively, you can change the scale value in line 1018 and 1101 so that you can investigate polygon size of scale*scale.
 
 // ==================================================================================================
 // Sourcing the other 2 files.
 ui.root.clear();
 
-var ltgee = require('users/pkourtis95/ACT:FINAL_SCRIPTS/LandTrendr_Library.js'); // future user needs to update the path 
-var ltgeeUI = require('users/pkourtis95/ACT:FINAL_SCRIPTS/LandTrendr_UI.js'); // future user needs to update the path  
+var ltgee = require('users/pkourtis95/ACT:FINAL_SCRIPTS/LandTrendr_Library.js');  
+var ltgeeUI = require('users/pkourtis95/ACT:FINAL_SCRIPTS/LandTrendr_UI.js');  
 
 
 
@@ -411,11 +410,11 @@ yearFilter.widgets().get(2).style().set('padding', '0px 0px 0px 20px');
 var opList = ['>', '<'];
 var magFilter = ui.Panel(
   [
-    ui.Checkbox({label:'Filter by Magnitude (0-2):', value:1,style:{color:'blue'}}),
+    ui.Checkbox({label:'Filter by Magnitude (0-1000):', value:1,style:{color:'blue'}}),
     ui.Panel(
       [
         ui.Label('Value:'),
-        ui.Textbox({value:0.05, style:{stretch: 'horizontal'}}),
+        ui.Textbox({value:100, style:{stretch: 'horizontal'}}),
         ui.Label('Operator:'),
         ui.Select({items:opList, value:'>', style:{stretch: 'horizontal'}})
       ], ui.Panel.Layout.Flow('horizontal'), {stretch: 'horizontal', padding: '0px 0px 0px 20px'})
@@ -431,7 +430,7 @@ var durFilter = ui.Panel(
     ui.Panel(
       [
         ui.Label('Value:'),
-        ui.Textbox({value:10, style:{stretch: 'horizontal'}}),
+        ui.Textbox({value:9, style:{stretch: 'horizontal'}}),
         ui.Label('Operator:'),
         ui.Select({items:opList, value:'>', style:{stretch: 'horizontal'}})
       ], ui.Panel.Layout.Flow('horizontal'), {stretch: 'horizontal', padding: '0px 0px 0px 20px'})
@@ -1014,7 +1013,9 @@ var chartPoint = function(lt, pixel, index, indexFlip, scale) {
 	  return img.reduceRegion({
 	   reducer: 'first',
 	   geometry: aoi,
-	   scale: 13000  // (m). you can investigate area size of scale*scale 
+	   // TODO: When you draw a polygon and plot NDVI trend in the RGB Change Options,
+	   // the polygon size should be approximately 13km * 13km
+	   scale: 100  // (m). 
 	  }).getInfo();
 	};
 	
@@ -1095,7 +1096,9 @@ var chartPoint = function(lt, pixel, index, indexFlip, scale) {
 	
 	    runParams.timeSeries = annualLTcollection;
 	    var lt = ee.Algorithms.TemporalSegmentation.LandTrendr(runParams);
-	    var scale = 13000;  // (m). you can investigate area size of scale*scale 
+	   // TODO: When you draw a polygon and plot NDVI trend in the RGB Change Options,
+	   // the polygon size should be approximately 13km * 13km
+	    var scale = 13000;  // (m).  
 	    var chart = chartPoint_aoi(lt, aoi, name[0], name[1], scale);
 	    plotHolder.add(chart);
 	  });
