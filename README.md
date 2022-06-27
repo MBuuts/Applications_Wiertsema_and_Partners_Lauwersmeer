@@ -58,7 +58,7 @@ Project deliverables can be found in the `/Reports/...` folder of this repositor
 - A short and quick manual on how to use the ViWi-app using only default settings
 - An elaborate manual on the different settings and parameters of the ViWi-app
 
-**`DataManagementPlan.pdf` contains:**
+**[`Data_Management_Plan_ACT_Group6.pdf`](https://github.com/MBuuts/DORA_ViWi_App/blob/main/Reports/Data_Management_Plan_ACT_Group6.pdf) contains:**
 - A short description of the project
 - A description of the data management roles of the team members
 - A description of the type of project data, software choices, and data size
