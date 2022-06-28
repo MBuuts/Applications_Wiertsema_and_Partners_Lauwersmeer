@@ -11,7 +11,7 @@
 // License: Apache License 2.0
 // Sources used:https://code.earthengine.google.com/6f77dca2e8a17407db20ecf9b9fc83a4
 
-// ==================================================================================================
+// =============================================================================================
 
  //set default center of map to Lauwersmeer
 Map.setCenter(6.228197, 53.374121, 11); 
