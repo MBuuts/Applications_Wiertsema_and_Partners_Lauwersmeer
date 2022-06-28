@@ -40,7 +40,7 @@ Project deliverables can be found in the `/Reports/...` folder of this repositor
 - A description of the products and deliverables
 - A description of the project management
 
-**[`Project_Report.pdf`]() contains:**
+**[`Project_Report.pdf`](https://github.com/MBuuts/Applications_Wiertsema_and_Partners_Lauwersmeer/blob/main/Reports/Project_Report.pdf) contains:**
 - Some background information about vegetation stress and how this can be observed by remote sensing and vegetation indices
 - An introduction into the final outputs
 - A short description of the study area
