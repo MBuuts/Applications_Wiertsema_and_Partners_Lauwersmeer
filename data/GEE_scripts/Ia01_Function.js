@@ -126,10 +126,10 @@ var getSRcollection = function(year, startDay, endDay, sensor, aoi, maskThese, e
       var qa = img.select('pixel_qa'); 
       
       for(var i in maskThese){
-        if(maskThese[i] == 'water'){mask = qa.bitwiseAnd(4).eq(0).multiply(mask)}
-        if(maskThese[i] == 'shadow'){mask = qa.bitwiseAnd(8).eq(0).multiply(mask)} 
-        if(maskThese[i] == 'snow'){mask = qa.bitwiseAnd(16).eq(0).multiply(mask)}
-        if(maskThese[i] == 'cloud'){mask = qa.bitwiseAnd(32).eq(0).multiply(mask)} 
+        if(maskThese[i] == 'water'){mask = qa.bitwiseAnd(1 << 2).eq(0).multiply(mask)}
+        if(maskThese[i] == 'shadow'){mask = qa.bitwiseAnd(1 << 3).eq(0).multiply(mask)} 
+        if(maskThese[i] == 'snow'){mask = qa.bitwiseAnd(1 << 4).eq(0).multiply(mask)}
+        if(maskThese[i] == 'cloud'){mask = qa.bitwiseAnd(1 << 5).eq(0).multiply(mask)}
         if(maskThese[i] == 'waterplus'){mask = mask.mask(MappedWaterBinary)}
         if(maskThese[i] == 'nonforest'){mask = mask.mask(selectedForests)}
       }
@@ -1185,8 +1185,8 @@ var stdDevStretch = function(img, aoi, nStdev){
                 .reduce(ee.Reducer.mean(), [0])
                 .multiply(nStdev);
 
-  var max = per95.add(stdDev).getInfo()[0];
-  var min = per95.subtract(stdDev).getInfo()[0];
+  var max = mean.add(stdDev).getInfo()[0];
+  var min = mean.subtract(stdDev).getInfo()[0];
   return [min, max];
 };
 exports.stdDevStretch = stdDevStretch;
