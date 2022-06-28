@@ -12,7 +12,8 @@
 // Sources used: https://emapr.github.io/LT-GEE/index.html
 
 // TODO: When you draw a polygon and plot NDVI trend in the RGB Change Options,
-// The polygon size should be approximately 13km * 13 km. Alternatively, you can change the scale value in line 1018 and 1101 so that you can investigate polygon size of scale*scale.
+// The polygon size should be approximately 13km * 13 km. Alternatively, 
+// you can change the scale value in line 1018 and 1101 so that you can investigate polygon size of scale*scale.
 
 // ==================================================================================================
 // Sourcing the other 2 files.
@@ -20,7 +21,6 @@ ui.root.clear();
 
 var ltgee = require('users/geewiertsema/NDVI_Apps:I_PROJECT_SCRIPTS/Ia_LandTrendr/Ia01_Function.js');  
 var ltgeeUI = require('users/geewiertsema/NDVI_Apps:I_PROJECT_SCRIPTS/Ia_LandTrendr/Ia02_UI.js');  
-
 
 
 
