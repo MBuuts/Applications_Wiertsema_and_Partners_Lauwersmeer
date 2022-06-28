@@ -12,7 +12,7 @@ The scripts in the `/data/GEE_scripts/...` folder of this repository facilitate 
 
 The NDVI slope application can be found [here](https://code.earthengine.google.com/462b5d8c3488a9754392e8a9e050a2f0).The LandTrendr tool packaged as a Google Earth Engine application can be found [here](https://code.earthengine.google.com/70cd203347663ea507e15368f6c759e1). A step-by-step manual (including download link) on how to use both of the applications can be found [here](https://github.com/MBuuts/DORA_ViWi_App/blob/main/Reports/Manual_Applications_GEE.pdf). 
 
-Alternatively, if you want to access the tool's source code, you can add the repository to your Google Earth Engine scripts by clicking [here](https://code.earthengine.google.com/462b5d8c3488a9754392e8a9e050a2f0), it will be displayed in the Reader section. The visualization tool is accessible by running `Ia03_APP.js`.   
+Alternatively, if you want to access the tool's source code, you can add the repository to your Google Earth Engine scripts by clicking [here](https://code.earthengine.google.com/?accept_repo=users/geewiertsema/NDVI_Apps), it will be displayed in the Reader section. The visualization tool is accessible by running `Ia03_APP.js`.   
 _Note: the scripts accessed with these links will be shown in the reader section scipts in the Reader section cannot be modified. Access to modifiable scripts will be given to the Google Earth Engine account of Wiertsema & Partners._
 
 ***Description of scripts. Can just be a short description.***  
